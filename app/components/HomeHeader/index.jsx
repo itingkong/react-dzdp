@@ -11,11 +11,11 @@ class HomeHeader extends React.Component{
         return(
 
             <div id="home-header" className="clear-fix">
-                <div className="home-header-left float-left">
+                <div className="home-header-left fl">
                     <span>{this.props.cityName}</span>
                     <i className="icon-angle-down"></i>
                 </div>
-                <div className="home-header-right float-right">
+                <div className="home-header-right fr">
                     <i className="icon-user"></i>
                 </div>
                 <div className="home-header-middle">
