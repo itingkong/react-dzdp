@@ -2,7 +2,7 @@ module.exports = [
     {
         title: '暑假5折',
         img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191639092-2000037796.png',
-        link: 'http://www.imooc.com/wap/index'
+        link: 'http://music.163.com/#/user/home?id=17718190'
     },
     {
         title: '特价出国',

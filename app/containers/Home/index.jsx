@@ -1,38 +1,39 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
 import HomeHeader from '../../components/HomeHeader'
-import {connect} from "react-redux";
 import Category from '../../components/Categorys'
-import userinfo from "../../reducers/userinfo";
+import Ad from './subpage'
+// import List from './subpage/List'
 
-class Home extends React.Component{
-    constructor(props, context){
+class Home extends React.Component {
+    constructor(props, context) {
         super(props, context);
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
     }
-
-    render(){
-        return(
-           <div>
-               <HomeHeader cityName={this.props.userinfo.cityName} />
-               <Category />
-           </div>
+    render() {
+        return (
+            <div>
+                <HomeHeader cityName={this.props.userinfo.cityName}/>
+                <Category />
+                <div style={{height: '15px'}}></div>
+                <Ad />
+            </div>
         )
     }
 }
 
 function mapStateToProps(state) {
-    return{
+    return {
         userinfo: state.userinfo
     }
 }
 
 function mapDispatchToProps(dispatch) {
-    return{
-
+    return {
     }
 }
-
 export default connect(
     mapStateToProps,
     mapDispatchToProps
