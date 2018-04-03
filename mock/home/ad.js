@@ -1,32 +1,32 @@
 module.exports = [
     {
         title: '暑假5折',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191639092-2000037796.png',
+        img: 'http://p1.music.126.net/hwjEd2bwnkRDJMdLTsZiTQ==/109951163125606078.jpg?param=180y180',
         link: 'http://music.163.com/#/user/home?id=17718190'
     },
     {
         title: '特价出国',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191648124-298129318.png',
-        link: 'http://www.imooc.com/wap/index'
+        img: 'http://p4.music.126.net/HfONoiydSxBFn2SMmyN3qg==/3235862724973369.jpg?param=200y200',
+        link: 'http://music.163.com/#/playlist?id=2056569626'
     },
     {
         title: '亮亮车',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191653983-1962772127.png',
-        link: 'http://www.imooc.com/wap/index'
+        img: 'http://p3.music.126.net/le1HevdmTrncdyiF-i_W6A==/8001146115566103.jpg?param=200y200',
+        link: 'http://music.163.com/#/playlist?id=2053045636'
     },
     {
         title: '学钢琴',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191700420-1584459466.png',
-        link: 'http://www.imooc.com/wap/index'
+        img: 'http://p3.music.126.net/baaLZ8t6Y_9kNB31z_2PgQ==/19196373509589905.jpg?param=200y200',
+        link: 'http://music.163.com/#/playlist?id=1994027373'
     },
     {
         title: '电影',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191706733-367929553.png',
-        link: 'http://www.imooc.com/wap/index'
+        img: 'http://p4.music.126.net/bgTLpStnVm6bm0QIlyE3kg==/2544269907083413.jpg?param=200y200',
+        link: 'http://music.163.com/#/playlist?id=86992294'
     },
     {
         title: '旅游热线',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191713186-495002222.png',
-        link: 'http://www.imooc.com/wap/index'
+        img: 'http://p3.music.126.net/k_vH6aYRPXTBgrbivFaKkw==/18757668371364771.jpg?param=200y200',
+        link: 'http://music.163.com/#/playlist?id=744283179'
     }
 ]
