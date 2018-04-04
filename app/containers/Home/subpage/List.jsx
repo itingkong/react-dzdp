@@ -2,7 +2,7 @@ import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import List from '../../../components/List'
 import {getListData} from "../../../fetch/home/home";
-
+import LoadMore from '../../../components/LoadMore'
 class ListComponent extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -23,6 +23,7 @@ class ListComponent extends React.Component {
                         ? <List data={this.state.data}/>
                         : <div>{/* 加载中... */}</div>
                 }
+                {this.state.hasMore ? <LoadMore isLoadingMore={this.state.isLoadingMore} loadMoreFn={this.loadMoreData.bind(this)}/> : ''}
             </div>
         )
     }
@@ -37,6 +38,24 @@ class ListComponent extends React.Component {
         const cityName = this.props.cityName
         const result = getListData(cityName, 0)
         this.resultHandle(result)
+    }
+
+    loadMoreData(){
+        // 记录状态
+        this.setState({
+            isLoadingMore: true
+        });
+
+        const cityName = this.props.cityName;
+        const page = this.state.page;
+        const result = getListData(cityName, page);
+        this.resultHandle(result);
+
+        //更改page
+        this.setState({
+            page: page +1,
+            isLoadingMore: false
+        })
     }
 
     // 处理数据
