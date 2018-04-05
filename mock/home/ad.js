@@ -1,32 +1,32 @@
 module.exports = [
     {
-        title: '暑假5折',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191639092-2000037796.png',
-        link: 'http://www.imooc.com/wap/index'
+        title: '龙儿我是过儿',
+        img: 'http://p1.music.126.net/hwjEd2bwnkRDJMdLTsZiTQ==/109951163125606078.jpg?param=180y180',
+        link: 'http://music.163.com/#/user/home?id=17718190'
     },
     {
-        title: '特价出国',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191648124-298129318.png',
-        link: 'http://www.imooc.com/wap/index'
+        title: '抖一抖',
+        img: 'http://p3.music.126.net/baaLZ8t6Y_9kNB31z_2PgQ==/19196373509589905.jpg?param=200y200',
+        link: 'http://music.163.com/#/playlist?id=1994027373'
     },
     {
-        title: '亮亮车',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191653983-1962772127.png',
-        link: 'http://www.imooc.com/wap/index'
+        title: 'Q弹Q弹的',
+        img: 'http://p3.music.126.net/le1HevdmTrncdyiF-i_W6A==/8001146115566103.jpg?param=200y200',
+        link: 'http://music.163.com/#/playlist?id=2053045636'
     },
     {
-        title: '学钢琴',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191700420-1584459466.png',
-        link: 'http://www.imooc.com/wap/index'
+        title: '缓缓升起的风格',
+        img: 'http://p3.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg?param=200y200',
+        link: 'http://music.163.com/#/playlist?id=607474948'
     },
     {
-        title: '电影',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191706733-367929553.png',
-        link: 'http://www.imooc.com/wap/index'
+        title: 'Let\'s rap',
+        img: 'http://p1.music.126.net/qdvNTgWzYWxhTGw5BnPIUw==/936783906911204.jpg?param=140y140',
+        link: 'http://music.163.com/#/playlist?id=310853118'
     },
     {
-        title: '旅游热线',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191713186-495002222.png',
-        link: 'http://www.imooc.com/wap/index'
+        title: 'noted',
+        img: 'http://p3.music.126.net/YokjuIt5C6vBleCZfEjMRQ==/3251255905986246.jpg?param=200y200',
+        link: 'http://music.163.com/#/playlist?id=739999265'
     }
 ]
