@@ -19,7 +19,7 @@ class Home extends React.Component {
                 <Category />
                 <div style={{height: '15px'}}></div>
                 <Ad />
-                <ListComponent/>
+                <ListComponent cityName={this.props.userinfo.cityName}/>
             </div>
         )
     }
