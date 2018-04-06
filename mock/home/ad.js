@@ -2,7 +2,7 @@ module.exports = [
     {
         title: '龙儿我是过儿',
         img: 'http://p1.music.126.net/hwjEd2bwnkRDJMdLTsZiTQ==/109951163125606078.jpg?param=180y180',
-        link: 'http://music.163.com/#/user/home?id=17718190'
+        link: 'http://music.163.com/#/playlist?id=14330750'
     },
     {
         title: '抖一抖',
