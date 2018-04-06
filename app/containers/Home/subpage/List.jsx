@@ -1,6 +1,6 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-import List from '../../../components/List'
+import List from '../../../components/List/index'
 import {getListData} from "../../../fetch/home/home";
 import LoadMore from '../../../components/LoadMore'
 class ListComponent extends React.Component {

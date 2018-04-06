@@ -1,6 +1,6 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-import List from '../../../components/List'
+import List from '../../../components/List/index'
 import {connect} from 'react-redux'
 import LoadMore from '../../../components/LoadMore'
 import {getSearchData} from '../../../fetch/search/search'
