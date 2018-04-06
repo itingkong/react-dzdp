@@ -1,7 +1,7 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 
-import Item from './Item/Item.jsx'
+import ListItem from './Item/Item.jsx'
 
 import './style.less'
 
@@ -14,7 +14,7 @@ class List extends React.Component {
         return (
             <div className="list-container">
                 {this.props.data.map((item, index) => {
-                    return <Item key={index} data={item}/>
+                    return <ListItem key={index} data={item}/>
                 })}
             </div>
         )
